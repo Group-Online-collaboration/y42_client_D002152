@@ -1,6 +1,6 @@
 {
   "request_id": "220624073934_e0d334d4-d530-5131-a229-027f5ea88385",
-  "status": "pending",
+  "status": "ready",
   "request": {
     "source_credentials": "877c3b21-cdc1-43f8-a894-44311963e875",
     "target_credentials": "fc764b1a-ddf2-41df-86bb-f42adb61594f",
@@ -75,7 +75,126 @@
     "write_disposition": "TRUNCATE",
     "external_id": "01a5282c-0101-4b88-0001-2c9200360e76",
     "storage_file": "azure://y42snowflake.blob.core.windows.net/y42-container/userUploads/v2/tap-facebook-datos/a8888ff6-eea4-40f1-8b82-1caa591eb002",
-    "partial": false
+    "partial": false,
+    "import_finished_at": "2022-06-24T07:40:24.573652+00:00",
+    "row_count": 49,
+    "current_import_row_count": 49,
+    "size_in_bytes": 9728,
+    "columns": [
+      {
+        "field_name": "cost_per_unique_click",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "impression_device",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "cost_per_inline_link_click",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "date_start",
+        "data_type": "TIMESTAMP",
+        "external_data_type": "TIMESTAMP_NTZ"
+      },
+      {
+        "field_name": "unique_clicks",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "impressions",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "unique_inline_link_clicks",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "inline_post_engagement",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "campaign_name",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "spend",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "frequency",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "clicks",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "ad_id",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "reach",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "publisher_platform",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "inline_link_clicks",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "platform_position",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "cost_per_inline_post_engagement",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "cost_per_unique_inline_link_click",
+        "data_type": "FLOAT",
+        "external_data_type": "FLOAT"
+      },
+      {
+        "field_name": "adset_id",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      },
+      {
+        "field_name": "campaign_id",
+        "data_type": "STRING",
+        "external_data_type": "TEXT"
+      },
+      {
+        "field_name": "account_id",
+        "data_type": "FLOAT",
+        "external_data_type": "NUMBER"
+      }
+    ],
+    "table_name": "220624073934_e0d334d4-d530-5131-a229-027f5ea88385",
+    "external_url": "https://leailmf-bb09357.snowflakecomputing.com/console#/data/tables/detail?databaseName=Y42_DATA&schemaName=PUBLIC&tableName=220624073934_e0d334d4-d530-5131-a229-027f5ea88385"
   },
-  "_signature": "AveBLcKySwu+8FAKbLmtYzahyw1inE4qUDDBDyKyg7MPjY8Khq5Y0y+8TOaScFY4L6Jj7k8kMB5klGqr4Gn1Cw=="
+  "finished_at": "2022-06-24T07:40:24.573822+00:00",
+  "_signature": "MUUwbnPQmwygSPnCThYX1iDViZyR7k7LA5Up6Pm22+blRzZGCShk39GOeGYVKrl0lvrtu+r8UJmX4ea8TCorCw=="
 }
