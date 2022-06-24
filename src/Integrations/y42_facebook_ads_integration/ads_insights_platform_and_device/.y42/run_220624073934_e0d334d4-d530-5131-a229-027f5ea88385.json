@@ -61,5 +61,21 @@
     }
   },
   "created_at": "2022-06-24T07:39:34.941951+00:00",
-  "_signature": "HVSoQfNuzGS1Q/OvT4g+9RdZ1YsGef2bwkrSzm16OiIwkVnONlULntK+ydQj7v41+jcXGKBl99uMFAPOnxpFAg=="
+  "details": {
+    "invalid_rows": 0,
+    "export_finished_at": "2022-06-24T07:40:10.845807+00:00",
+    "external_state": {
+      "bookmarks": {
+        "ads_insights_platform_and_device": {
+          "date_start": "2022-06-24"
+        }
+      },
+      "schema_hash": "c740add5ce5198584d454b56582410fd"
+    },
+    "write_disposition": "TRUNCATE",
+    "external_id": "01a5282c-0101-4b88-0001-2c9200360e76",
+    "storage_file": "azure://y42snowflake.blob.core.windows.net/y42-container/userUploads/v2/tap-facebook-datos/a8888ff6-eea4-40f1-8b82-1caa591eb002",
+    "partial": false
+  },
+  "_signature": "AveBLcKySwu+8FAKbLmtYzahyw1inE4qUDDBDyKyg7MPjY8Khq5Y0y+8TOaScFY4L6Jj7k8kMB5klGqr4Gn1Cw=="
 }
